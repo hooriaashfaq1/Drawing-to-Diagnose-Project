@@ -1,4 +1,4 @@
-Drawing to diagnose: A gamified diagnostic tool for Alzheimer’s and Parkinson’s disease
+# Drawing to diagnose: A gamified diagnostic tool for Alzheimer’s and Parkinson’s disease
 
 An interactive, gamified drawing-based diagnostic tool for early detection of Parkinson's Disease (PD) and Alzheimer's Disease (AD) using machine learning models.
 
@@ -53,15 +53,11 @@ openpyxl
 tensorflow/keras (for CNN models)
 scikit-learn (for traditional ML models)
 
-Setup
-bash# Clone the repository
-git clone https://github.com/yourusername/neurodegeneration-screening-tool.git
-cd neurodegeneration-screening-tool
-
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
-# Run the application
-python main.py
+
+Run the application
+python UserInterface.py
 
 Usage
 GUI Application
